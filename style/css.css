@@ -1,0 +1,484 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+}
+#box {
+  width: 100%;
+  height: 100%;
+}
+#div{
+	position: absolute;
+	background: #a3d1ff;
+	opacity: 0.4;
+	border: 1px solid #0080ff;
+}
+/*#bdyun {
+  width: 1350px;
+  margin: 0 auto;
+}*/
+nav{
+	width: 100%;
+	height: 49px;
+	background: #252525;
+	border-bottom: 1px solid #b0b0b0;
+}
+nav .logo {
+  width: 148px;
+  height: 49px;
+  background: url(../images/logo.png);
+  float: left;
+}
+nav .index{
+	float: left;
+	/*margin-right: 148px;*/
+}
+nav .index a{
+		padding: 0 27px 0 27px;
+		font: 16px/49px "微软雅黑"  ;
+		font-weight: bold;
+		color: #fff;
+		float: left;
+}
+nav .index a:nth-child(1){
+		background: #0f0f0f;
+}
+nav .index a:nth-child(2){
+	background: url(../images/v.png) no-repeat 73px 22px;
+}
+/*-----------------index------------------*/
+.RAM{
+	float: right;
+	padding-top: 21px;
+}
+.RAM a:nth-child(1){
+	color: #e95300;
+	font: 12px "微软雅黑";
+	margin-right: 11px;
+	float: left;
+}
+.RAM a:nth-child(2){
+	color: #fff;
+	font: 12px "微软雅黑";
+	margin-right: 9px;
+	float: left;
+}
+.RAM :nth-child(3){
+	width: 132px;
+	height: 16px;
+	float: left;
+	background: #323232;
+	border: 1px solid #1b1b1b;
+	padding-right: 6px;
+	text-align: right;
+	margin-right: 10px;
+}
+/*----------------nav RMA--------------------*/
+.vip{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 15px;
+	float: right;
+}
+.vip a{
+	border-left: 1px solid #393939;
+	margin-top: 6px;
+	float: left;
+	color: #FFF;
+	font: 12px "微软雅黑";
+}
+.vip a:nth-child(1){
+	padding: 0 28px 0 22px;
+	background: url(../images/v.png) no-repeat 93px 6px;
+	border-right: 1px solid #393939;
+}
+.vip a:nth-child(2){
+	border: none;
+	padding: 0 12px 0 11px;
+	margin: 0 8px 0 8px;
+	background-color: red;
+	border-radius: 3px;
+	line-height: 24px;
+}
+.vip a:nth-child(3),.vip a:nth-child(4){
+	padding: 0 9px 0 8px;
+}
+.vip a:nth-child(5){
+	padding: 0 20px 0 8px;
+	background: url(../images/v.png) no-repeat 41px 6px;
+}
+/*-------------------nav---------------------------*/
+#content{
+	width: 100%;
+	height: 100%;
+}
+.left{
+	width: 15%;
+	height: 100%;
+	background: #f0f0f0;
+	float: left;
+}
+.left ul{
+	padding-left: 36px;
+	height: 100%;
+}
+.left li{
+	width: 100%;
+	/*padding-top: 14px;*/
+}
+.left li a{
+	margin-top: 14px;
+	color: #303030;
+	font: 14px/14px "微软雅黑";
+	padding: 6px 0 0 29px;
+	display: inline-block;
+}
+.left li:nth-child(7){
+	padding-bottom: 14px;
+	margin-left: -36px;
+	border-bottom: 1px solid #dfe0e4;
+	width: inherit;
+}
+.left li:nth-child(8){
+	padding-bottom: 14px;
+	margin-left: -36px;
+	border-bottom: 1px solid #dfe0e4;
+}
+.left li:nth-child(8),.left li:nth-child(9){
+	border-top: 1px solid white;
+	width: inherit;
+}
+/*-----------cont-left-------------*/
+.right{
+	float: left;
+	width: 85%;
+	height:100%;
+}
+.right .btn{
+	padding: 10px 0 9px 28px;
+	border-bottom: 1px solid #d3d3d3;
+	background: #f7f7f7;
+}
+.right .btn a{
+	font: 12px "微软雅黑";
+	padding: 0 15px 0 40px;
+	height: 28px;
+	border: 1px solid #a7a7a7;
+	border-radius: 1px;
+	color: #656565;
+	line-height: 28px;
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	background-image: url(../images/btn_bg.png);
+}
+.right .btn a:nth-child(1){
+	background: url(../images/xj.png) no-repeat 10px 5px;
+}
+.right .btn a:nth-child(2){
+	background: url(../images/cmm.png) no-repeat 10px 5px;
+}
+.right .btn a:nth-child(3){
+	background: url(../images/left_09.png) no-repeat 15px 5px;
+}
+.right .btn a:nth-child(5),.right .btn a:nth-child(4){
+	margin: 0;
+	padding: 0;
+	width: 32px;
+	float: right;
+	border: none;
+	display: none;
+}
+.right .btn a:nth-child(6),.right .btn a:nth-child(7){
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 32px;
+	border: none;
+	/*display: none;*/
+}
+.right .btn a:nth-child(4),.right .btn a:nth-child(6){
+	margin-right: 18px;
+}
+/*-----------btn-------------*/
+.folderBox{
+	padding-left: 10px;
+}
+.allFolder{
+	height: 30px;
+	padding: 0 20px 0 10px;
+	position: relative;
+}
+.allFolder p{
+	font: 12px "微软雅黑";
+	line-height: 30px;
+}
+#level{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background: #fff;
+	display: none;
+}
+#level i,#level .levelI{
+	color: #065cc1;
+	cursor: pointer;
+}
+#level i,#level span,.levelI{
+	float: left;
+}
+
+#level span,#level .levelSpan{
+	margin: 0 8px;
+}
+.allFolder p:nth-child(1){
+	float: left;
+}
+.allFolder p:nth-child(2){
+	float: right;
+}
+.folderName{
+	width: 98%;
+	height: 41px;
+	border: 1px solid #d3d3d3;
+	border-radius: 1px;
+	padding: 0 0 0 10px;
+	background-color: #f7f7f7;
+}
+#checkAll{
+	margin-top:12px ;
+	margin-right: 13px;
+	float: left;
+	background: #fff;
+}
+#name{
+	font: 12px/12px "微软雅黑";
+	padding: 12px 0 18px 0;
+	float: left;
+	width: 50%;
+	border-right: 1px solid #e5e5e5;
+}
+#big{
+	border-left: 1px solid white;
+	font: 12px/12px "微软雅黑";
+	padding: 12px 0 18px 10px;
+	width: 20%;
+	border-right: 1px solid #e5e5e5;
+	float: left;
+}
+#date{
+	border-left: 1px solid white;
+	font: 12px/12px "微软雅黑";
+	padding: 12px 0 18px 10px;
+	width: 20%;
+	float: left;
+}
+/*-----------folderName-------------*/
+.folder1{
+	height: 487px;
+	overflow: auto;
+	position: relative;
+	/*display: none;*/
+}
+
+.folder1 .folder,.folder1 .folderT{
+	float: left;
+	margin-left: 35px;
+	margin-top: 4px;
+}
+.Twoimg,.TwoimgT{
+	border: 2px solid #FFF;
+	position: relative;
+}
+/*.folder{
+	display: none;
+}*/
+.folderT{
+	display: none;
+}
+.folder1 .f1box{
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+.img1,.img1T{
+	padding: 23px 15px 18px 15px;
+}
+.img2,.img2T{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.img3,.img3T{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.img4{
+	position: absolute;
+	display:  none;
+}
+.folder1 .folder p,.folder1 .folderT p{
+	font: 12px/16px "微软雅黑";
+	/*line-height: 30px;*/
+	width: 95px;
+/*	height: 12px;*/
+	text-align: center;
+	overflow: hidden;
+}
+.alter{
+	/*width: 191px;*/
+	position: absolute;
+	left: 0px;
+	top: 99px;
+	display: none;
+}
+.txt{
+	width: 105px;
+	height: 18px;
+	margin-left: 25px;
+	margin-top: 3px;
+}
+.ok{
+	width: 22px;
+	height: 21px;
+	line-height: 21px;
+	color: green;
+	font: 12px "微软雅黑";
+	font-weight: bold;
+}
+.no{
+	width: 22px;
+	height: 21px;
+	line-height: 21px;
+	color: #d01c1b;
+	font: 12px "微软雅黑";
+	font-weight: bold;
+}
+.folder2{
+	height: 487px;
+	display: none;
+	overflow: auto;
+}
+.f2box{
+		padding: 12px 0 12px 11px;
+		height: 15px;
+		border-bottom: 1px solid #ebebeb;
+		position: relative;
+}
+.folder2 .show2{
+	float: left;
+}
+.alter2{
+	float: left;
+	position: absolute;
+	left: 58px;
+	top: 10px;
+	display: none;
+}
+.txt2{
+	height: 18px;
+}
+.check{
+	margin-right: 11px;
+	margin-top: 2px;
+	float: left;
+}
+.show2 img{
+	margin-right: 8px;
+	float: left;
+}
+.show2 p{
+	font: 12px/12px "微软雅黑";;
+	float: left;
+}
+
+/*-----------------右键-----------------*/
+.rgkey{
+	width: 169px;
+	height: 153px;
+	border: 1px solid #bababa;
+	padding-top: 2px;
+	display: none;
+	position: absolute;
+	background: #fff;
+	z-index: 100;
+}
+.rgkey li {
+	padding-left: 34px;
+	height: 23px;
+	font: 12px/23px "微软雅黑";
+	cursor: pointer;
+}
+.rgkey li a {
+	color: #000000;
+}
+.rgkey li:nth-child(3),.rgkey li:nth-child(5){
+	border-bottom: 1px solid #e8e8e8;
+	margin: 2px 0 2px 0;
+}
+.rgkeyImg{
+	padding-bottom: 5px;
+	margin: 3px 9px 0px -25px;
+}
+/*-----------------文件夹右键-----------------*/
+.folderRgKey{
+	width: 100px;
+	height: 50px;
+	border: 1px solid #bababa;
+	position: absolute;
+	display: none;
+	background: #fff;
+	z-index: 100;
+}
+.folderRgKey li{
+	font: 12px/23px "微软雅黑";
+	color: #646464;
+	text-align: left;
+	padding-left: 34px;
+	cursor: pointer;
+}
+/*---------------------hover-------------------------*/
+.navHover{
+	background: #0f0f0f;
+	position: relative;
+	z-index: 100000;
+	/*--主页、网盘、分享、应用hover--*/
+}
+.blueArrows62{
+	background: url(../images/blue.png) no-repeat 62px 15px;
+	/*--蓝色箭头 (修改日期)--*/
+}
+.blueArrows38{
+	background: url(../images/blue.png) no-repeat 38px 15px;
+	/*--蓝色箭头 (大小)--*/
+}
+.border1{
+	border: 2px solid #307fde;
+	/*background: url(../images/gou1.png) no-repeat ;*/
+	/*--文件夹未选中状态--*/
+}
+.border2{
+	border: 2px solid #307fde;
+	background: url(../images/gou2.png) no-repeat ;
+	/*--文件夹选中状态--*/
+}
+.rgkey ul li:hover{
+	/*文档的右键hover效果*/
+	background: #4281f3;
+	color: #fff;
+}
+.folderRgKey li:hover{
+	/*文件夹上的右键hover效果*/
+	background: #4281f3;
+	color: #fff;
+}
+/*---------------------hover-------------------------*/
+
+
+
+
+
+
